@@ -1,0 +1,89 @@
+node_modules
+public
+src
+.gitIgnore
+package.json
+package-lock.json
+READEME
+
+
+public
+    all images
+    favicon
+    index.html
+src
+    all css
+    all fonts
+    all background
+    all js file
+    all testing files
+    
+package.json --> main file of project configuration
+
+
+// App js is component
+// component is a basic building block of react application
+// component are reusable in nature
+// can handel data --> in component we use state
+// share data among component ---> we use props
+
+// every component has 3 parts
+
+// import (optional)
+
+// logic
+
+// export
+
+// component are of 2 type
+// class component (use legacy project)
+// function component (use recent projects)
+
+
+// <></> ==> JSX Fragment 
+
+// function comp
+
+function App(){
+    return <></>
+}
+
+let App = function(){
+    return <></>
+}
+
+let App = ()=>{
+
+}
+
+JSX ==> JavascriptXML
+JSX must have only parent
+JSX to print js data we use {} i.e jsx expression
+In JSX ---> class ==> className
+In JSX ---> for ===> htmlFor
+
+JSX ==> loop ==> map method
+
+JSX ==> if else ==> ternary opt ==> (cond) ? true : false;
+
+JSX ==> style="color:red" ==> style={ {color:'red'} }
+
+component data handing is done by states
+
+
+functional component don't have a state
+hooks --> function only run in function component
+hooks --> provide all behaviors like class component
+hooks are react function to perform complex task
+hooks always start with "use"
+state ===> useState
+useState()
+states are mutable (read / write)
+
+componentOne componentTwo
+
+App(parent) -- props --> Text(child)
+props --> to send a data from parent child
+props are immutable (ready only)
+props ==> {property:value}
+

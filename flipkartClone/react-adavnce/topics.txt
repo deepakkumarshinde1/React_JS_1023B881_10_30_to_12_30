@@ -1,0 +1,4 @@
+HOC
+Pure Component
+useMemo --> performance
+useCallback --> performance
